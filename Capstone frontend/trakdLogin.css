@@ -1,0 +1,46 @@
+body{
+    background-color:white;
+    
+}
+
+.card-signin{
+    /*background-color: #A5C9CA;*/
+    color:black;
+    /*box-shadow: 5px 5px 5px 5px black;*/
+    border: 2px solid #395B64;
+    background: linear-gradient(45deg, #A5C9CA, #E7F6F2)
+
+
+
+}
+
+.btn{
+    background-color: #395B64;
+    color: white;
+}
+
+.dropdown li:hover{
+
+    background-color:#E7F6F2;
+    color: black;   
+}
+
+
+.navbar{
+    background-color: #395B64;
+    margin-bottom: 80px;
+    
+    
+}
+
+.nav-link{
+    color: #E7F6F2;
+}
+
+.navbar-brand{
+    color: #E7F6F2;
+}
+
+#brand-title{
+    
+}

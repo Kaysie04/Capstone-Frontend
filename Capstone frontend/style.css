@@ -1,0 +1,65 @@
+
+
+#signup{
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 50px;
+    background: #32a8a4;
+    border-radius: 20px;
+}
+
+#signup input{
+    border-radius: 20px;
+    border-width: 0.5px;
+    height: 30px;
+    width: 90%;
+}
+
+#signup input:focus{
+    border-color:black;
+    outline: 3px solid transparent;
+    background: #bcc2c2;
+}
+
+
+#login{
+    border: solid black;
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 50px;
+
+}
+
+#createNewHire {
+    padding: 20px;
+    width: 75%;
+    margin-bottom: 50px;
+    background: #60807e;
+    border-radius: 20px;
+}
+
+#login input{
+    border-radius: 20px;
+    border-width: 0.5px;
+
+}
+
+#createNewHire input{
+    border-radius: 20px; 
+    border-width: 0.5px;
+    height: 30px;
+    width: 90%;
+}
+
+#createNewHire select{
+    border-radius: 20px;
+    height: 30px;
+    width: 90%; 
+}
+
+#createNewHire label{
+    text-align:center;
+}
+
+
+  

@@ -1,0 +1,28 @@
+body{
+    background-color:#E7F6F2;
+    background: linear-gradient(45deg,  #A5C9CA, #395B64);
+}
+
+.card-signin{
+    /*background-color: #A5C9CA;*/
+    color:black;
+    /*box-shadow: 5px 5px 5px 5px black;*/
+    border: 2px solid #395B64;
+    border-radius: 15px;
+    background: linear-gradient(45deg, #A5C9CA, #E7F6F2)
+
+
+
+}
+
+.btn{
+    background-color: #395B64;
+    color: white;
+}
+
+.dropdown li:hover{
+
+    background-color:#E7F6F2;
+    color: black;   
+}
+

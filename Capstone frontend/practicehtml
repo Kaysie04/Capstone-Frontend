@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel = "stylesheet" href = "practice.css">
+</head>
+<body>
+
+    <!-- <div class = "jumbotron">
+
+        <h1>Jumbotron</h1>
+    </div> -->
+
+    <!-- <div class = "page-header">
+        <h1> page header</h1>
+    </div> -->
+<!-- 
+    <div class=" container-fluid">
+        <div class = "row">
+            <div  class= "col-xs-4 col-sm-4 col-md-4 col-lg-4"> First Name</div>
+            <div  class= "col-xs-4 col-sm-4 col-md-4 col-lg-4"> Middle Name</div>
+            <div  class= "col-xs-4 col-sm-4 col-md-4 col-lg-4"> Last Name</div>
+           
+        </div>
+
+    </div> -->
+
+    <!-- <table class="table table-hover table-bordered ">
+        <thead>
+           <tr>
+               <th>Firstname</th>
+               <th>Lastname</th>
+           </tr>
+        </thead>
+           <tbody>
+             <tr>
+               <td>John</td>
+               <td>Smith</td>
+             </tr>
+             <tr>
+               <td>Jack</td>
+               <td>Jones</td>
+             </tr>
+           </tbody>
+       </table> -->
+
+       <!-- CREATE NAV BAR-->
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                New Hire Options
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Create New Hire Profile</a>
+                <a class="dropdown-item" href="#">Update New Hire Profile</a>
+                <a class="dropdown-item" href="#">Specific New Hire Profile</a>
+                <a class="dropdown-item" href="#">List of All New Hires</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Delete New Hire Profile</a>
+              </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Department Options
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#"> List of All Departments</a>
+                    <a class="dropdown-item" href="#"> Information of Specific Department</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Manager Options
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">List of All Managers</a>
+                  <a class="dropdown-item" href="#">Information of Specific Manager</a>
+                </div>
+              </li>
+          </ul>
+        </div>
+      </nav>
+      
+
+       <!-- CREATE A LOGIN FORM-->
+     <div class="container">
+      <div class="row">
+        <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+          <div class="card card-signin my-5">
+            <img src="path/to/image" class="card-img-top" alt="Login Form">
+            <div class="card-body">
+              <h5 class="card-title text-center">LOGIN</h5>
+              <form class="form-signin">
+                <div class="form-label-group">
+                  <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+                  <label for="inputEmail"></label>
+                </div>
+
+                <div class="form-label-group">
+                  <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                  <label for="inputPassword"></label>
+                </div>
+
+                <div class="custom-control custom-checkbox mb-3">
+                  <input type="checkbox" class="custom-control-input" id="customCheck1">
+                  <label class="custom-control-label" for="customCheck1">Remember password</label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">LOGIN</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--CREATE A SIGN-UP FORM-->
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <h5 class="card-title text-center">CREATE ACCOUNT</h5>
+                <form class="form-signup">
+                  <div class="form-label-group">
+                    <input type="text" id="inputName" class="form-control" placeholder="Name" required autofocus>
+                    <label for="inputName"></label>
+                  </div>
+                  <div class="form-label-group">
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email" required>
+                    <label for="inputEmail"></label>
+                  </div>
+  
+                  <div class="form-label-group">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                    <label for="inputPassword"></label>
+                  </div>
+                  <div class="form-label-group">
+                    <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Confirm Password" required>
+                    <label for="inputConfirmPassword"></label>
+                  </div>
+                  <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit">CREATE ACCOUNT</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+
+
+      <!-- CREATE NEW HIRE ENTER FORM-->
+
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9 col-md-7 col-lg-5 mx-auto">
+            <div class="card card-signin my-5">
+              <div class="card-body">
+                <h5 class="card-title text-center">CREATE NEW HIRE PROFILE</h5>
+                <form class="form-signup">
+
+                  <div class="form-label-group">
+                    <label for="inputName"></label>
+                    <input type="text" id="inputName" class="form-control" placeholder="Name" required autofocus>
+                    
+                  </div>
+                  <div class="form-label-group">
+                    <label for="inputEmail"></label>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email" required>
+                    
+                  </div>
+  
+                  <div class="form-label-group">
+                    <label for="inputPassword"></label>
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                      
+                  </div>
+                  <div class="form-label-group">
+                    <label for="inputConfirmPassword"></label>
+                    <input type="password" id="inputConfirmPassword" class="form-control" placeholder="Confirm Password" required>
+                  </div>
+                  <br></br>
+
+                  <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Job Title
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li>Software Engineer</li>
+                    </ul>
+                  </div>
+                  <br></br>
+
+                  <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Select Department
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li>Front-End</li>
+                      <li>Back-End</li>
+                      <li>QA</li>
+                      <li>Security</li>
+                      <li>Data</a></li>
+                    </ul>
+                  </div>
+                  <br></br>
+
+                  <div class="dropdown">
+                    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown"> Select Manager
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu">
+                      <li><a href = "#">Manager</a></li>
+                      <li>Manager</li>
+                      <li>Manager</li>
+                      <li>Manager</li>
+                      <li>Manager</a></li>
+                    </ul>
+                  </div>
+                  <br></br>
+                  
+                  <button class="btn btn-lg btn-primary btn-block text-uppercase" type="submit"> SAVE PROFILE</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+      
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+ 
+

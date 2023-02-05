@@ -1,0 +1,23 @@
+.navbar{
+    background-color:  #61876E;
+    margin-bottom: 80px; 
+}
+
+.nav-link{
+    color: #273f37;
+}
+
+.navbar-brand{
+    color: #273f37;
+}
+
+body{
+    background-color:#EAE7B1;
+}
+
+#welcome-display{
+    background-color:#A6BB8D;
+    color:#3C6255;
+}
+
+

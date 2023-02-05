@@ -1,0 +1,45 @@
+.navbar{
+    background-color: #395B64;
+    margin-bottom: 80px; 
+}
+
+.nav-link{
+    color: #E7F6F2;
+}
+
+.navbar-brand{
+    color: #E7F6F2;
+}
+
+ .dropdown a:hover {
+    background-color: transparent;
+    color: #E7F6F2;
+}
+
+body{
+    background-color:white;
+}
+
+.nav-item div a:hover{
+    background-color:  #A5C9CA; 
+    color:#395B64;
+}
+.nav-item div a{
+    color:#395B64;  
+}
+
+.dropdown-menu{
+    background-color: white;
+   
+}
+
+.dropdown-divider{
+    background-color:#036264; 
+    
+}
+
+
+#welcome-display{
+    background-color: #A5C9CA;
+    color:black;
+}

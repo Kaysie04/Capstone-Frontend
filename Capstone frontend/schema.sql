@@ -54,7 +54,7 @@ UPDATE manager SET dept_id = 2  WHERE id = 4;
 UPDATE manager SET dept_id = 4  WHERE id = 5;
 
 
-INSERT INTO NewHire (name, email, password, job_title, salary) VALUES('Steven Smith', 'ss@tech.com', 'password', 'Software Engineer', '$80,000');
+INSERT INTO newhire (name, email, password, job_title, salary) VALUES('Steven Smith', 'ss@tech.com', 'password', 'Software Engineer', '$80,000');
 
 
 public int updateSalary(String deptName, int newSalary) {

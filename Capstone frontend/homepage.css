@@ -1,23 +1,33 @@
+
+
+
 .navbar{
-    background-color:  #61876E;
+    background-color: #001b2e;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 3px solid #4c7273;
     margin-bottom: 80px; 
 }
 
 .nav-link{
-    color: #273f37;
+    color: #ffffff;
 }
 
 .navbar-brand{
-    color: #273f37;
+    color: #ffffff;
 }
 
 body{
-    background-color:#EAE7B1;
+    background-color:white;
 }
 
 #welcome-display{
-    background-color:#A6BB8D;
-    color:#3C6255;
+    background-color:#041421;
+    color:#ffffff;
+    border: solid 3px #4c7273;
 }
 
 

@@ -44,7 +44,7 @@ function generateEmail(initials){
      return autoEmail;
 }
 
-function saveNewHire(){
+ function saveNewHire(){
     passwordInput.value = generatePassword(8);
     let finalPassword = passwordInput.value
     let finalEmail = generateEmail(initialsInput.value);
@@ -59,27 +59,38 @@ function saveNewHire(){
     let selectedDept = deptDropdown.options[deptDropdown.selectedIndex].value;
     let selectedManager = managerDropdown.options[managerDropdown.selectedIndex].value;
 
-    // console.log("password: "+finalPassword)
-    // console.log("email: "+finalEmail)
-    // console.log("name: "+finalName)
-    // console.log("phone: "+finalPhone)
-    // console.log("street: "+finalStreet)
-    // console.log("city: "+finalCity)
-    // console.log("state: "+finalState)
-    // console.log("zipcode: "+finalZipcode)
-    //console.log(selectedJob + " " +  selectedSalary + " " + selectedDept + " " + selectedManager) 
+    let data = {"name": finalName,
+    "email": finalEmail,
+    "jobTitle": selectedJob,
+    "password": finalPassword,
+    "salary": selectedSalary,
+    "dept_id": selectedDept,
+    "manager_id": selectedManager
+    }
+
+    let url = "http://localhost:8080/newhire/create"
+
+     fetch(url, {
+      method:"POST",
+      headers:{
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(data),
+    })
+  .then(response => {
+    if (response.ok){
+      console.log("success!")
+    } else {
+      throw new Error("did not create newhire")
+    }
+  })
+  .catch(error => {
+    console.log(error)
+  });
 }
+
 submitBtn.addEventListener("click" , (e) => {
     e.preventDefault();
     saveNewHire();
-
   })
-
-
-
-
-
-
-
-
 

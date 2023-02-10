@@ -1,0 +1,51 @@
+
+<!-- Address Info-->
+<div class="form-group">
+            <label for="phone-number"></label>
+            <input type="text" class="form-control" id="phone-number" placeholder="Phone Number">
+          </div>
+          <div class="form-group">
+            <label for="street"></label>
+            <input type="text" class="form-control" id="street" placeholder="Street">
+          </div>
+          <div class="form-group">
+            <label for="city"></label>
+            <input type="text" class="form-control" id="city" placeholder="City">
+          </div>
+          <div class="form-group">
+            <label for="state"></label>
+            <input type="text" class="form-control" id="state" placeholder="State">
+          </div>
+          <div class="form-group">
+            <label for="zipcode"></label>
+            <input type="text" class="form-control" id="zipcode" placeholder="Zipcode">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- Manager and Dept-->
+      <div>
+          <label for="dept-dropdown"></label>
+          <select class = "dropdown" id="dept-dropdown">
+            <option value = null>Select Department</option>
+            <option value = "1">Front-End</option>
+            <option value = "2"> Back-End</option>
+            <option value = "3">QA</option>
+            <option value = "4">Security</option>
+            <option value = "5">Data</option>
+          </select>
+        </div>
+
+
+         <div>
+          <label for="manager-dropdown"></label>
+          <select class = "dropdown" id="manager-dropdown">
+            <option value = null>Select Manager</option>
+            <option value = "1">Sarah Lee: Front-End</option>
+            <option value = "4">Michael Donnelly: Back-End</option>
+            <option value = "2">Richard Hastings: QA</option>
+            <option value = "5">Amber Pearl: Security</option>
+            <option value = "1">Chris Nobles: Data</option>
+          </select>
+        </div>

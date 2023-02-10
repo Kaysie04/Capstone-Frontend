@@ -1,46 +1,51 @@
-body{
-    background-color:white;
-    
-}
-
-.card-signin{
-    /*background-color: #A5C9CA;*/
-    color:#395B64;
-    /*box-shadow: 5px 5px 5px 5px black;*/
-    /* border: 2px solid #395B64; */
-    background: linear-gradient(45deg, #A5C9CA, #E7F6F2)
-
-
-
-}
-
-.btn{
-    background-color: #395B64;
-    color: white;
-}
-
-.dropdown li:hover{
-
-    background-color:#E7F6F2;
-    color: black;   
-}
-
-
+@font-face {
+    src: url('fonts/AmstelvarAlpha-VF.ttf');
+    font-family:'AmstelvarAlpha';
+    font-style: normal;
+  }
+  
 .navbar{
-    background-color: #395B64;
-    margin-bottom: 80px;
-    
-    
-}
-
-.nav-link{
-    color: #E7F6F2;
+    background-color: #a9a9a2;
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    border-bottom: 1.5px solid #ebebeb;
+    margin-bottom: 80px; 
+    font-family:'AmstelvarAlpha';
 }
 
 .navbar-brand{
-    color: #E7F6F2;
+    color: #ebebeb;
+    font-size:50px;
 }
 
-#brand-title{
+.navbar-brand:hover{
+    color: #ebebeb;
+}
+
+body{
+    background-color:#e0d7d1;
+}
+
+.card-signin{
+    
+    color: #787775;
+    border: solid 1.5px #ebebeb;
+    background-color: #ebebeb;
+    font-family:'AmstelvarAlpha';
+}
+
+.container input:hover{
+    border: solid 2px #787775;
     
 }
+
+.btn{
+    background-color:#a9a9a2;
+    color: #ebebeb;
+    border: solid 1.5px #ebebeb;  
+    font-family:'AmstelvarAlpha';
+}
+
+
+
